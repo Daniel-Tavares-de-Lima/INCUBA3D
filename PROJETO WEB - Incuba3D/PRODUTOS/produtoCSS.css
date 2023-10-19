@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap');
+
+body{
+    background-color: #f5f2e6;
+}
+
+/*----HEADER----*/
+
+
+.header{
+    background-color: #fde686;
+    font-family: 'Poppins', sans-serif;
+    height: 108px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header img{
+    width: 110px;
+    cursor: pointer;
+}
+
+
+.header nav ul{
+    display: flex;
+}
+
+.header nav ul li{
+    margin-right:50px;
+    font-size: 20px;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header #menu{
+    display: none;
+}
+
+/*------END HEADER-----------*/
+
+
+/*--------MAIN 1-------------*/
+
+main{
+    font-family: 'Poppins', sans-serif;
+    height: 450px;
+}
+
+
+
+.demo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.demo img{
+    width: 173px;
+}
+
+.catalogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.catalogos ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.catalogos ul li{
+    margin: 0 50px;
+    font-weight: 600;
+}
+
+/*------*/
+
+.titulo-destaque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.titulo-destaque h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.titulo-destaque p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+/*-----*/
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+
+}
+
+.produtos .square{
+    width: 168px;
+    height: 162px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.produtos .square img{
+    width: 156px;
+    height: 152px;
+}
+
+.produtos .square .info{
+    position: absolute;
+    bottom: -75px;
+    text-align: center;
+
+} 
+
+.produtos .square .info .na{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.produtos .square .info button{
+    background-color: #c0c2a5;
+    border: none;
+    width: 74px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.produtos .square .info h1{
+    font-size: 15px;
+    width: 210px;
+    font-weight: 600;
+}
+
+.produtos .square .info p{
+    font-size: 13px;
+}
+
+/*----------END MAIN 1-----------*/
+
+
+/*-------MAIN 2--------------------*/
+
+.segundo-produtos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.segundo-produtos .square{
+    width: 168px;
+    height: 162px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.segundo-produtos .square img{
+    width: 156px;
+    height: 152px;
+}
+
+.segundo-produtos .square .info{
+    position: absolute;
+    bottom: -75px;
+    text-align: center;
+
+} 
+
+.segundo-produtos .square .info .na{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.segundo-produtos .square .info button{
+    background-color: #c0c2a5;
+    border: none;
+    width: 74px;
+    height: 20px;
+    border-radius: 5px;
+    
+}
+
+.segundo-produtos .square .info h1{
+    font-size: 15px;
+    width: 210px;
+    font-weight: 600;
+}
+
+.segundo-produtos .square .info p{
+    font-size: 13px;
+}
+
+
+/*-----*/
+main .produtos-mobile{
+    display: none;
+}
+
+
+/*--------END MAIN 2---------------*/
+
+/*-----FOOTER-----*/
+
+footer{
+    background-color: #fde686;
+    height: 275px;
+}
+
+footer img{
+    width: 108px;
+}
+
+.footer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.redes{
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer p{
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+footer .logo-footer{
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+}
+
+footer .logo-footer img{
+    width: 81px;
+    cursor: pointer;
+}
+
+/*-----END FOOTER----*/
+
+
+
+
+/*----------HOVER-------------*/
+
+/*---HEADER HOVER---*/
+
+.header nav ul li:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.header nav ul li:not(:hover){
+    transform: scale(1);
+    transition: all 0.5s;
+
+}
+
+
+.header nav ul i:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.header nav ul i:not(:hover){
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+/*--END HEADER HOVER----*/
+
+/*---MAIN HOVER---*/
+
+
+main .catalogos ul li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+/*--PRODUTO 1 HOVER---*/
+
+
+main .produtos .square .info button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.3s;
+    background-color: #a9ab91;
+}
+
+main .produtos .square .info button:not(:hover){
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+/*--END PRODUTO 1 HOVER---*/
+
+
+
+/*--PRODUTOS 2 HOVER---*/
+
+
+main .segundo-produtos .square .info button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.3s;
+    background-color: #a9ab91;
+}
+
+main .segundo-produtos .square .info button:not(:hover){
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+/*---END MAIN HOVER---*/
+
+
+/*---FOOTER HOVER---*/
+
+
+footer .footer .redes i:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+footer .footer .redes i:not(:hover){
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+/*---END FOOTER HOVER--*/
+
+
+
+/*---------END HOVER------------*/
+
+
+
+
+

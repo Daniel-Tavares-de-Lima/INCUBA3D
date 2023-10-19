@@ -1,0 +1,297 @@
+/*------RESPONSIVE------*/
+
+@media (max-width:1080px){
+
+    /*----MAIN HISTORIA---*/
+    .historia{
+        display: flex;
+        
+    }
+
+    .historia .desenho img{
+        width: 300px;
+    }
+
+    .historia .history{
+        width: 450px;
+    }
+
+    .history p{
+        width: 450px;
+        text-align: justify;
+    }
+
+    /*---END MAIN HISTORIA---*/
+
+
+    /*---MAIN 2 GUIA---*/
+
+    .guia .container .materia{
+        width: 70%;
+    }
+
+
+    .carrosel .fa-arrow-left{
+        font-size: 25px;
+        margin-right: 30px;
+    }
+
+    .carrosel .fa-arrow-right{
+        font-size: 25px;
+        margin-left: 30px;
+    }
+
+    /*---END MAIN 2 GUIA--*/
+
+}
+
+@media (max-width:925px){
+    /*---MAIN HISTORIA---*/
+    .historia p{
+        width: 400px;
+        font-size: 14px;
+        
+    }
+
+    /*----END MAIN HISTORIA---*/
+
+    /*---MAIN 2 GUIA-----*/
+
+    .guia .container .materia{
+        width: 80%;
+    }
+
+    .guia .container .materia h1{
+        font-size: 14px;
+    }
+
+    .guia .container .materia p{
+        font-size: 12px;
+    }
+
+    .guia .container .carrosel img{
+        width: 180px;
+    }
+
+    .carrosel .fa-arrow-left{
+        font-size: 22px;
+        margin-right: 20px;
+    }
+
+    .carrosel .fa-arrow-right{
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    
+
+    /*---END MAIN 2 GUIA---*/
+
+}
+
+
+@media(max-width:800px){
+
+    /*---HEADER---*/
+    
+    .header img{
+        width: 90px;
+        cursor: pointer;
+    }
+
+
+    .header nav ul{
+        display: flex;
+    }
+
+    .header nav ul li{
+        margin-right:50px;
+        font-size: 14px;
+    }
+
+    /*---END HEADER---*/
+
+    /*-----MAIN HISTORIA-------*/
+
+    .historia .desenho img{
+        width: 250px;
+    }
+
+    .historia .history h1{
+        font-size: 17px;
+    }
+
+    .historia .history p{
+        width: 300px;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    /*---END MAIN HISTORIA---*/
+
+    /*--MAIN 2 GUIA----*/
+
+    .guia{
+        height: 360px;
+    }
+
+    .guia #titulo{
+        font-size: 18px;
+    }
+
+    .guia .container .materia{
+        width: 95%;
+    }
+
+    .guia .materia .abs{
+        display: flex;
+        justify-content: center;
+    }
+
+    .guia .materia .abs h1{
+        font-size: 13px;
+    }
+
+    .guia .materia .abs p{
+        font-size: 11px;
+    }
+    /*-----*/   
+    .hr{
+        width: 1px;
+        height: 170px;
+        background-color: black;
+    }
+    /*----*/
+
+
+    .guia .materia .pla h1{
+        font-size: 13px;
+    }
+
+    .guia .materia .pla p{
+        font-size: 11px;
+    }
+
+    .guia .container .carrosel img{
+        width: 150px;
+    }
+
+    
+
+}
+
+@media (max-width:700px){
+    /*---MAIN 2 GUIA---*/
+
+    .guia .materia .abs{
+        width: 150px;
+    }
+
+    .guia .materia .abs h1{
+        font-size: 11px;
+    }
+
+    .guia .materia .abs p{
+        font-size: 9px;
+    }
+
+    /*---*/ 
+
+    .guia .materia .pla{
+        width: 150px;
+    }
+
+    .guia .materia .pla h1{
+        font-size: 11px;
+    }
+
+    .guia .materia .pla p{
+        font-size: 9px;
+    }
+
+    /*-----*/   
+    
+    .guia .container .carrosel img{
+        width: 130px;
+    }
+
+    
+}
+
+
+@media(max-width:600px){
+
+    /*---HEADER----*/
+
+    .header img{
+        width: 80px;
+    }
+
+    .header nav{
+        display: none;
+    }
+
+    .header #menu{
+        display: block;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+
+    /*---MAIN HISTORIA----*/
+    .historia{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 800px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .historia .desenho img{
+        width: 400px;
+    }
+
+    .historia .history p{
+        width: 500px;
+    }
+
+    /*---END MAIN HISTORIA----*/
+
+    /*---MAIN 2 GUIA---*/
+
+    .guia{
+        height: 600px;
+    }
+
+    .guia .container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .guia .container .carrosel img{
+        width: 250px;
+    }
+
+}
+
+
+
+@media(max-width:510px){
+    .historia .history p{
+        width: 300px;
+        font-size: 11px;
+    }
+
+    .historia .desenho img{
+        width: 300px;
+    }
+
+    .guia .container .carrosel img{
+        width: 200px;
+    }
+
+    footer .footer .logo-footer img{
+        display: none;
+    }
+}

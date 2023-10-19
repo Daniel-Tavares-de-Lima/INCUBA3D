@@ -1,0 +1,170 @@
+/*------RESPONSIVE---------*/
+
+
+@media(max-width:1100px){
+    main .produtos .square1{
+        display: none;
+    }
+
+    main .segundo-produtos .square1{
+        display: none;
+    }
+}
+
+@media(max-width:760px){
+
+    main .catalogos ul li{
+        margin: auto;
+        font-size: 14px;
+    }
+
+    main .produtos .square2{
+        display: none;
+    }
+
+    main .segundo-produtos .square2{
+        display: none;
+    }
+
+
+
+}
+
+
+@media(max-width:600px){
+    
+    /*---HEADER----*/
+
+    .header img{
+        width: 80px;
+    }
+
+    .header nav{
+        display: none;
+    }
+
+
+    .header #menu{
+        display: block;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    /*--END HEADER---*/
+
+    /*---main----*/
+    main .catalogos ul li{
+        margin: auto;
+        font-size: 13px;
+    }
+
+    main .titulo-destaque{
+        text-align: center;
+    }
+
+    main .titulo-destaque h1{
+        font-size: 17px;
+    }
+
+    main .titulo-destaque p{
+        font-size: 12px;
+    }
+
+
+}
+
+
+@media(max-width: 510px){
+
+    main{
+        height: 600px;
+    }
+
+    main .produtos .square3{
+        display: none;
+    }
+
+    main .segundo-produtos{
+        margin-top: 0;
+    }
+    main .segundo-produtos .square3{
+        display: none;
+    }
+
+
+    /*--------------PRODUTOS MOBILE-------------*/
+
+    main .produtos-mobile{
+        display: flex;
+    }
+
+    .produtos-mobile{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 140px;
+    }
+
+    .produtos-mobile .square{
+        width: 168px;
+        height: 162px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+    }
+
+    .produtos-mobile .square img{
+        width: 156px;
+        height: 152px;
+    }
+
+    .produtos-mobile .square .info{
+        position: absolute;
+        bottom: -75px;
+        text-align: center;
+
+    } 
+
+    .produtos-mobile .square .info .na{
+        display: flex;
+        justify-content: center;
+        margin-top: 2px;
+    }
+
+    .produtos-mobile .square .info button{
+        background-color: #c0c2a5;
+        border: none;
+        width: 74px;
+        height: 20px;
+        border-radius: 5px;
+        
+    }
+
+    .produtos-mobile .square .info h1{
+        font-size: 15px;
+        width: 210px;
+        font-weight: 600;
+    }
+
+    .produtos-mobile .square .info p{
+        font-size: 13px;
+    }
+
+
+
+    main .produtos-mobile .square3{
+        display: none;
+    }
+
+    /*---foooter--*/
+
+    .logo-footer img{
+        display: none;
+    }
+
+
+}

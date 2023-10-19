@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incuba 3D</title>
+    <!------RESET STYLES--------->
+    <link rel="stylesheet" href="../reset.css">
+    <!------RESET STYLES-------->
+
+    <!-----STYLES CONTATO-------->
+    <link rel="stylesheet" href="contato-styles.css">
+    <!------STYLES CONTATO--------->
+
+    <!------RESPONSIVE CONTATO------>
+    <link rel="stylesheet" href="responsive-contato.css">
+    <!-----RESPONSIVE CONTATO------>
+    <link rel="shortcut icon" href="../IMG/HEADER/LOGO.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/267d026f07.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!------HEADER--------->
+    <header>
+        <div class="header">
+            <a href="../index.html">
+                <img src="../IMG/HEADER/LOGO.png" alt="LogoIncuba">
+            </a>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="../PRODUTOS/produto.html">PRODUTO</a>
+                    </li>
+                    <li>
+                        <a href="./contato.html">CONTATO</a>
+                    </li>
+                    <i class="fa-solid fa-globe"></i>
+                </ul>
+            </nav>
+            <i class="fa-solid fa-bars" id="menu"></i>
+        </div>
+    </header>
+
+    <!-------END HEADER------------>
+
+    <!----------MAIN FORM----------------->
+
+    <div class="titulo">
+        <h1>Entre em contato</h1>
+    </div>
+    <main>
+
+        <div class="form">
+            <form action="post">
+                <fieldset>
+                    <div class="nome">
+                        <label for="seuNome">Seu nome:</label>
+                        <input type="text" id="seuNome" placeholder="Nome" required>
+                    </div>
+
+                    <div class="email">
+                        <label for="seuEmail">Seu Email:</label>
+                        <input type="text" id="seuEmail" placeholder="Email" required>
+                    </div>
+
+                    <div class="telefone">
+                        <label for="seuTelefone">Seu Telefone:</label>
+                        <input type="number" id="seuTelefone" placeholder="Telefone" required>
+                    </div>
+
+                    <div class="assunto">
+                        <label for="titulo-assunto">Assunto:</label>
+                        <input type="text" id="titulo-assunto" placeholder="Assunto" required>
+                    </div>
+
+                    <div class="mensagem">
+                        <label for="sua-mensagem">Mensagem:</label>
+                        <textarea name="sua-mensagem" id="sua-mensagem" cols="40" rows="5" placeholder="Mensagem" required></textarea>
+                    </div>
+
+
+                </fieldset>
+            </form>
+        </div>
+        
+        
+
+        <div class="container">
+            <div class="box">
+                <div class="contato">
+                    <h3>Como prefere ser contatado?</h3>
+                    <div class="label">
+                        <label for="emal">Email</label>
+                        <input type="radio" value="Manhã" name="formaContato">
+                   
+
+                        <label for="Telefone">Telefone</label>
+                        <input type="radio" value="Tarde" name="formaContato">
+
+                    
+                        <label for="Whatsapp">Whatsapp</label>
+                        <input type="radio" value="Noite" name="formaContato">
+                    </div>
+                </div>
+
+                <div class="atendimento">
+                    <h3>Qual horário prefere ser atendido?</h3>
+
+                    <select name="periodo" id="periodo">
+                        <option value="periodo">Manhã</option>
+                        <option value="periodo">Tarde</option>
+                        <option value="periodo">Noite</option>
+                    </select>
+                </div>
+
+                <div class="ligue">
+                    <h3>Ligue para nós</h3>
+
+                    <p>(81) 9.9999-9999</p>
+                    <p>(81) 9.9999-9999</p>
+                </div>
+
+                <div class="feedback">
+                    <h3>Diga-nos o seu feedback</h3>
+
+                    <div class="redes">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <button>Enviar</button>
+
+
+         <!-----BUTTON MOBILE------->
+
+         <div class="button">
+            <button id="mobile">Enviar</button>
+         </div>
+
+         <!------BUTTON MOBILE------->
+        
+        
+    </main>
+
+    <!-----------------END MAIN FORM------------------------>
+
+     <!------FOOTER------->
+     <footer>
+        <div class="footer">
+            <div class="redes">
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+    
+            <img src="../IMG/HEADER/LOGO SEM BORBOLETA.png" alt="logo">
+
+            <p>Incuba 3D &#169; Copyright 2022. Direitos Reservados.</p>
+
+            <div class="logo-footer">
+                <a href="../index.html">
+                    <img src="../IMG/HEADER/LOGO.png" alt="logo-foooter">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!---------END FOOTER----------->
+    
+</body>
+</html>

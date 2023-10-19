@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap');
+
+body{
+    background-color: #f5f2e6;
+}
+
+/*----HEADER----*/
+
+
+.header{
+    background-color: #fde686;
+    font-family: 'Poppins', sans-serif;
+    height: 108px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header img{
+    width: 110px;
+    cursor: pointer;
+}
+
+
+.header nav ul{
+    display: flex;
+}
+
+.header nav ul li{
+    margin-right:50px;
+    font-size: 20px;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header #menu{
+    display: none;
+}
+
+/*------END HEADER-----------*/
+
+
+/*------------MAIN-----------------*/
+
+
+/*-----MAIN LEFT----*/
+main{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 1080px;
+    position: relative;
+}
+
+
+.titulo{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin-left: 100px;
+}
+
+main .form form fieldset div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+main .form form fieldset div input{
+    padding: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.582);
+    font-size: 18px;
+}
+
+main .form form fieldset div label{
+    margin-bottom: 15px;
+}
+
+main .form form fieldset div textarea{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.582);
+}
+
+
+/*----END MAIN LEFT----*/
+
+/*-----BUTTON MAIN------*/
+
+main button{ 
+    position: absolute;
+    background-color: #306881;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    width: 310px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    bottom: 70px;
+    left: 45%;
+}
+
+/*----BUTTON MOBILE-----*/
+
+
+/*------END BUTTON MAIN-----*/
+
+
+/*----MAIN RIGHT-----*/
+.container{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .box{
+    width: 450px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*-----*/
+
+.container .box .contato{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .box .contato h3{
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container .box .contato .label{
+    font-size: 16px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.container .box .contato .label input{
+    margin-right: 20px
+}
+
+/*------*/
+
+/*------*/
+
+.container .box .atendimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container .box .atendimento h3{
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container .box .atendimento select{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.582);
+    font-size: 17px;
+}
+
+/*-------*/
+
+/*------*/
+
+.container .box .ligue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container .box .ligue h3{
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container .box .ligue p{
+    font-size: 17px;
+}
+
+/*------*/
+
+
+/*------*/
+.container .box .feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.container .box .feedback h3{
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container .box .feedback .redes i{
+    margin-left: 10px;
+    font-size: 32px;
+}
+
+/*----END MAIN RIGHT----*/
+
+
+
+/*-----FOOTER-----*/
+
+footer{
+    background-color: #fde686;
+    height: 270px;
+}
+
+footer img{
+    width: 108px;
+}
+
+.footer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.redes{
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer p{
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+footer .logo-footer{
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+}
+
+footer .logo-footer img{
+    width: 81px;
+    cursor: pointer;
+}
+
+/*-----END FOOTER----*/
+
+
+
+/*--------HOVER---------*/
+
+/*--HEADER HOVER--*/
+
+.header nav ul li:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.header nav ul li:not(:hover){
+    transform: scale(1);
+    transition: all 0.5s;
+
+}
+
+
+.header nav ul i:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.header nav ul i:not(:hover){
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+/*--END HEADER HOVER----*/
+
+/*----MAIN HOVER-----*/
+
+main button:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+main button:not(hover){
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.container .box .feedback .redes i:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.container .box .feedback .redes i:not(:hover){
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+
+
+/*--END MAIN HOVER-----*/
+
+/*---footer----*/
+
+footer .footer .redes i:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+    transition: all 0.5s;
+}
+
+footer .footer .redes i:not(:hover){
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+/*---footer----*/
+
+/*------END HOVER-----------*/
+
+
